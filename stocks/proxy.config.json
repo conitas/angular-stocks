@@ -1,0 +1,8 @@
+{
+  "/api/v3/company/profile/*": {
+    "target": "https://financialmodelingprep.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}

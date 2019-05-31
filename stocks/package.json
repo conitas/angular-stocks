@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "proxy": "npm run start -- --proxy-config proxy.config.json --host=0.0.0.0 --base-href /"
   },
   "private": true,
   "dependencies": {
