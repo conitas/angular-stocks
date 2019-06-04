@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import {RouterModule, Routes} from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { StockDetailsComponent } from './stock-details/stock-details.component';
-import { BasketComponent } from './basket/basket.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
@@ -29,7 +28,6 @@ export const routes: Routes = [
     AppComponent,
     HomeComponent,
     StockDetailsComponent,
-    BasketComponent,
     NavigationComponent
   ],
   imports: [
